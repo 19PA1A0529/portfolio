@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .navbar .navbar-brand span {
+            color: #0d6efd;
+        }
+
+        .home .home-img .img {
+            height: 400px;
+            width: 400px;
+        }
+
+        .home-text .text-purple {
+            color: #9932cc;
+        }
+
+        .portfolio-items .color a {
+            color: white;
+        }
+
+        footer p {
+            color: gray;
+        }
+    </style>
+</head>
+
+<body class="bg-lite">
+    <!--====================       navbar starts          ==============-->
+
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+        <div class="container-lg">
+            <a class="navbar-brand fw-bold fs-4" href="#">Portfo<span>lio</span></a>
+            <div class="dropdown">
+                <button class="btn btn-outline-primary px-3" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#Home">Home</a></li>
+                    <li><a class="dropdown-item" href="#About">About</a></li>
+                    <li><a class="dropdown-item" href="#Projects">Projects</a></li>
+                    <li><a class="dropdown-item" href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--====================       navbar ends          ==============-->
+
+    <!--====================   home section starts  ==============-->
+
+    <section class="home py-5" id="Home">
+        <div class="container py-4">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="home-img text-center">
+                        <img src="https://static.vecteezy.com/system/resources/previews/001/904/831/non_2x/woman-cartoon-with-laptop-at-desk-working-design-free-vector.jpg"
+                            class="img rounded-circle mw-100" alt="profile-pic">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                    <div class="home-text">
+                        <h5 class="text-muted mb-1">Hello I'm</h5>
+                        <h4 class="fs-4">Chennamsetty Poojitha Sai Sri Lalitha</h4>
+                        <h2 class="text-purple text-uppercase">Student </h2>
+                        <p class="mt-4 text-muted">
+                            I am intrested in the Web development,and content developer...
+                            and have completed many courses in the platforms like course-era,udemy,
+                            and open to work .....
+                        </p>
+                        <a href="#Contact" class="btn btn-secondary px-3">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====================   home section ends   ==============-->
+
+    <!--====================   about section starts   ==============-->
+
+    <section class="about py-5" id="About">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="mb-5">About Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3 class="fs-4 mb-3">Hello Everyone!!!</h3>
+                        <p class="text-muted">hey, myself Poojitha Sai Sri Lalitha
+                            pursing my B.tech 3rd year, in Vishnu Institue of Technology.
+                        </p>
+                    </div>
+                    <div class="row py-5">
+                        <div class="col-lg-12 d-flex align-items-center">
+                            <a href="#" class="btn px-3 btn-danger me-5">Download CV</a>
+                            <div class="social-links">
+                                <a href="#" class="me-2"><img
+                                        src="https://img.icons8.com/office/30/000000/facebook-new.png" /></a>
+                                <a href="#" class="me-2"><img
+                                        src="https://img.icons8.com/office/30/000000/instagram-new.png" /></a>
+                                <a href="#" class="me-2"><img
+                                        src="https://img.icons8.com/office/30/000000/twitter.png" /></a>
+                                <a href="#" class="me-2"><img
+                                        src="https://img.icons8.com/office/30/000000/linkedin-circled--v2.png" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">Html</h3>
+                        <div class="progress" style="height: 3px;">
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">Css</h3>
+                        <div class="progress" style="height: 3px;">
+                            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">Bootstrap</h3>
+                        <div class="progress" style="height: 3px;">
+                            <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">JavaScript</h3>
+                        <div class="progress" style="height: 3px;">
+                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====================   about section ends   ==============-->
+
+    <!--====================   Project section starts   ==============-->
+    <section class="project py-5" id="Projects">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Projects</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-items">
+                        <img src="data:image/jpeg;base64,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"
+                            class="w-100 img-thumbnail" alt="eccomer WebBuilderEcommerceLandingPage">
+                        <h3 class=" fs-5 my-2">Webpage for Restaurant</h3>
+                        <p class="btn btn-secondary color"><a href="#">Click Here!!</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-items">
+                        <img src="https://techbytesonline.com/wp-content/uploads/2020/05/making-a-tic-tac-toe-game-in-vue-js-tutorial.png"
+                            class="w-100 img-thumbnail" alt="tic-tac-t0e">
+                        <h3 class=" fs-5 my-2">Tic Tac Toe</h3>
+                        <p class="btn btn-secondary color"><a href="#">Play Now!!</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-items">
+                        <img src="https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2020-07/loaf.jpg"
+                            class="w-100 img-thumbnail" alt="eccomer WebBuilderEcommerceLandingPage">
+                        <h3 class=" fs-5 my-2">E-Commerce Website</h3>
+                        <p class="btn btn-secondary color"><a href="#">Click Here!!</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====================   project section ends   ==============-->
+
+    <!--====================   conatact section starts   ==============-->
+    <section class="contact py-5" id="Contact">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Contact Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="contact-item d-flex mb-4">
+                        <div class="icon fs-4">
+                            <img src="https://img.icons8.com/office/30/000000/filled-message.png" />
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Email</h3>
+                            <p class="text-muted m-0">Example@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-4">
+                        <div class="icon fs-4">
+                            <img src="https://img.icons8.com/ios-glyphs/30/000000/phone-message.png" />
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Phone</h3>
+                            <p class="text-muted m-0">+91 *********</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <form action="https://formsubmit.co/19pa1a0529@vishnu.edu.in" method="post">
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Enter Your Name"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Enter Your Email"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm" name="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <input type="text" placeholder="Subject"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <textarea rows="5" placeholder="Enter Message"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button type="submit" class="btn btn-danger px-3">Send Message </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--====================   contact section ends   ==============-->
+
+    <!--====================   Footer section starts   ==============-->
+    <footer class="footer border-top py-4">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="text-center">Thank You !!!</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--====================   Footer section ends   ==============-->
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
